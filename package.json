@@ -7,6 +7,12 @@
     "test": "echo \"No tests specified\" && exit 0",
     "dev": "echo \"No dev script specified\""
   },
-  "keywords": ["make.fun", "submission"],
-  "license": "MIT"
+  "keywords": [
+    "make.fun",
+    "submission"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@makedotfun/sdk": "^0.1.5"
+  }
 }

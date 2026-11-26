@@ -1,0 +1,109 @@
+{
+  "format": "agent-fun/transcript-bundle/v1",
+  "created_at": "2026-11-26T09:30:08.793Z",
+  "tool": {
+    "name": "makefun-cli",
+    "version": "0.1.0+kit.34",
+    "client": {
+      "harness": "opencode",
+      "markers": [
+        "OPENCODE"
+      ],
+      "os": "linux x64",
+      "node": "v24.22.2",
+      "build": "ffa8182c1814",
+      "ci": false,
+      "tty": false
+    }
+  },
+  "repo": {
+    "remote_url": "https://github.com/wanxbr/makefun-one-honest-line.git",
+    "commit": "bfdca71a155d21d43214724f5f11216754d1064e",
+    "dirty": true
+  },
+  "sessions": [
+    {
+      "path": "sessions/opencode/opencode.db",
+      "source": "opencode",
+      "sha256": "c925a38663cb3bfaa144fdbe8636888dd4e561b084db1e18c290c43dd938b405",
+      "bytes": 577536,
+      "session_id": null,
+      "parent_session_id": null,
+      "agent_id": null,
+      "original_path": "~/.local/share/opencode/opencode.db",
+      "collected_by": "repo-match",
+      "first_at": "2026-11-26T09:21:00.197Z",
+      "last_at": "2026-11-26T09:29:58.616Z"
+    }
+  ],
+  "excluded_turns": [],
+  "declared": {
+    "harness": "opencode",
+    "harness_version": "1.0.0",
+    "model": "claude-3-5-sonnet-20241022",
+    "provider": "anthropic",
+    "reasoning_effort": "default",
+    "notes": "Test build"
+  },
+  "context": [
+    {
+      "path": "context/explicit/system-prompt.txt",
+      "kind": "system-prompt",
+      "scope": "explicit",
+      "harness": null,
+      "sha256": "962fbf3cb3ec659c9a5244425ee2e7bb141ad4428f489a630a7738566880dc6a",
+      "bytes": 8528,
+      "original_path": "~/.opencode/system-prompt.txt",
+      "collected_by": "explicit"
+    },
+    {
+      "path": "context/repo/_parent-1/AGENTS.md",
+      "kind": "instructions",
+      "scope": "repo",
+      "harness": null,
+      "sha256": "6707c7b6f406c89245841c41b53ac8a3e8f67b01da26b63eb3fceaceaee59ccc",
+      "bytes": 870,
+      "original_path": "~/AGENTS.md",
+      "collected_by": "discovered"
+    },
+    {
+      "path": "context/user/opencode/opencode.json",
+      "kind": "settings",
+      "scope": "user",
+      "harness": "opencode",
+      "sha256": "8f78368bf0749428c65bb4ea546a95ff89ec1f0e0086628f4519910711386bf0",
+      "bytes": 438,
+      "original_path": "~/.config/opencode/opencode.json",
+      "collected_by": "discovered"
+    }
+  ],
+  "collection": {
+    "explicit": 0,
+    "discovered": 1,
+    "family": 0,
+    "unmatched": 0,
+    "vanished_cwds": 0,
+    "context_files": 3,
+    "warnings": [
+      "opencode store /data/home/.local/share/opencode/opencode.db: 1 session that started in a directory above this repository taken for working on it (a tool call of each names a path in it), with its subagents",
+      "/data/home/makefun-one-honest-line-20261126 has uncommitted changes (recorded as repo.dirty)"
+    ]
+  },
+  "run": {
+    "format": "makefun-run/1",
+    "prompt": {
+      "text": "\"Create a new project directory for the make.fun submission and initialize it with git. Create /data/home/makefun-one-honest-line-20261126 with subdirectories and initial files.\"",
+      "origin": "typed",
+      "via": null
+    },
+    "system_prompt": {
+      "status": "uploaded",
+      "why": null
+    },
+    "instructions": {
+      "status": "collected",
+      "why": null
+    },
+    "mcp_servers": []
+  }
+}
