@@ -1,0 +1,12 @@
+{
+  "name": "makefun-one-honest-line",
+  "version": "1.0.0",
+  "description": "make.fun submission - One Honest Line",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "dev": "echo \"No dev script specified\""
+  },
+  "keywords": ["make.fun", "submission"],
+  "license": "MIT"
+}
